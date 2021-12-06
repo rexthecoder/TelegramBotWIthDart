@@ -1,11 +1,9 @@
 import 'dart:convert';
 
-import 'package:telegrambot/src/cubit/bot_cubit.dart';
 import 'package:http/http.dart' as http;
 
 import 'env.dart';
 
-final botCubit = BotCubit();
 
 class BotConfiguration {
   /// Random Facts

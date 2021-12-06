@@ -7,3 +7,18 @@ Map<String, String> envVars = {
   'INSULT': 'https://evilinsult.com/generate_insult.php?lang=en&type=json',
   'ADVICE': 'https://api.adviceslip.com/advice',
 };
+
+String help = '''
+I can help you do sample test and have fun😂.
+I was built with Dart.💙
+
+/jokes - get a random joke 😬
+/insult - get a random insult 🥵
+/facts - get a random fact 🍕
+/advice - get a random advice 😪
+
+Command with Param
+bible - get a random bible verse[param: book]💫
+Eg. Bible James 10:2
+
+''';
