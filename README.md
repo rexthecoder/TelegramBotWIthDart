@@ -1,6 +1,6 @@
 # TeleBot
 
-This is a bot built with Dart lang whichs help you people simple task and have fun
+This is a bot built with Dart lang which helps you people a simple task and have fun
 
 ## Command supported
 
