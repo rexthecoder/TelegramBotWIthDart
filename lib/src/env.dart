@@ -7,7 +7,7 @@ Map<String, String> envVars = {
   'INSULT': 'https://evilinsult.com/generate_insult.php?lang=en&type=json',
   'ADVICE': 'https://api.adviceslip.com/advice',
   'HOST_URL': 'https://git.heroku.com/enigmatic-waters-04315.git',
-  'BOT_PORT': '8080'
+  'BOT_PORT': '443'
 };
 
 String help = '''
