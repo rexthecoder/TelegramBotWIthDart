@@ -1,7 +1,5 @@
-import 'dart:io';
-
 Map<String, dynamic> envVars = {
-  'BOT_TOKEN': Platform.environment['TOKEN'],
+  'BOT_TOKEN': '5087574877:AAFZY7KMa5gd9Dm9F01jtwTrMB5px0qZKkI',
   'BIBLE': 'https://bible-api.com',
   'FACT': 'https://axoltlapi.herokuapp.com/',
   'JOKES': 'http://api.icndb.com/jokes/random',
