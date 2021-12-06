@@ -9,7 +9,7 @@ Map<String, String> envVars = {
 };
 
 String help = '''
-I can help you do sample test and have fun😂.
+I can help you do simple task and have fun😂.
 I was built with Dart.💙
 
 /jokes - get a random joke 😬
