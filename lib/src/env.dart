@@ -1,4 +1,4 @@
-Map<String, String> envVars = {
+Map<String, dynamic> envVars = {
   'BOT_TOKEN': '5087574877:AAFZY7KMa5gd9Dm9F01jtwTrMB5px0qZKkI',
   'BIBLE': 'https://bible-api.com',
   'FACT': 'https://axoltlapi.herokuapp.com/',
@@ -7,7 +7,7 @@ Map<String, String> envVars = {
   'INSULT': 'https://evilinsult.com/generate_insult.php?lang=en&type=json',
   'ADVICE': 'https://api.adviceslip.com/advice',
   'HOST_URL': 'https://git.heroku.com/enigmatic-waters-04315.git',
-  'BOT_PORT': '8443'
+  'BOT_PORT': 8443
 };
 
 String help = '''

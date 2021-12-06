@@ -19,9 +19,7 @@ Future<void> main() async {
     telegram,
     envVars['HOST_URL']!,
     envVars['BOT_TOKEN']!,
-    port: int.parse(
-      envVars['BOT_PORT']!,
-    ),
+    port:  envVars['BOT_PORT']!,
   );
   var teledart = TeleDart(telegram, event, fetcher: webhook);
 
