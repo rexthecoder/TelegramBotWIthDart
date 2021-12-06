@@ -6,7 +6,7 @@ Map<String, dynamic> envVars = {
   'AGE': 'https://api.agify.io?name=michael',
   'INSULT': 'https://evilinsult.com/generate_insult.php?lang=en&type=json',
   'ADVICE': 'https://api.adviceslip.com/advice',
-  'HOST_URL': 'https://git.heroku.com/enigmatic-waters-04315.git',
+  'HOST_URL': 'https://enigmatic-waters-04315.herokuapp.com/',
   'BOT_PORT': 8443
 };
 

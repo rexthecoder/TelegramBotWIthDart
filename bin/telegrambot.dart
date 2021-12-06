@@ -19,13 +19,13 @@ Future<void> main() async {
     telegram,
     envVars['HOST_URL']!,
     envVars['BOT_TOKEN']!,
-    port:  envVars['BOT_PORT']!,
+    port: envVars['BOT_PORT']!,
   );
   var teledart = TeleDart(telegram, event, fetcher: webhook);
 
   // Initialize the telegram bot
   teledart.start();
-
+  print("::::::::::::::Telegram bot started🎉");
   // welcome message
   teledart.onMessage(entityType: 'bot_command', keyword: 'start').listen(
         (message) => teledart.telegram.sendMessage(
