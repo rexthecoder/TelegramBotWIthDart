@@ -14,7 +14,16 @@ Future<void> main() async {
   // variable to store the bot
   var telegram = Telegram(envVars['BOT_TOKEN']!);
   var event = Event((await telegram.getMe()).username!);
-  var teledart = TeleDart(telegram, event);
+
+  var webhook = await Webhook.createHttpWebhok(
+    telegram,
+    envVars['HOST_URL']!,
+    envVars['BOT_TOKEN']!,
+    port: int.parse(
+      envVars['BOT_PORT']!,
+    ),
+  );
+  var teledart = TeleDart(telegram, event, fetcher: webhook);
 
   // Initialize the telegram bot
   teledart.start();
