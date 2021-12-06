@@ -1,1 +1,1 @@
-worker:./dart-sdk/bin/dart ./bin/telegrambot.dart
+worker: ./bin/telegrambot.dart
